@@ -46,7 +46,7 @@ automl_yolo/
 Clone o projeto e instale as dependências:
 
 ```bash
-git clone <seu-repositorio>
+git clone https://github.com/andre2k25luiz-source/AUTOML_YOLO.git
 cd automl_yolo
 
 pip install -r requirements.txt
