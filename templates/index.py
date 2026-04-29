@@ -3,7 +3,7 @@ import requests
 
 st.title("AutoML YOLO - One Shot")
 
-uploaded = st.file_uploader("Envie uma imagem do objeto")
+uploaded = st.file_uploader("Envie uma imagem do objeto", type=["jpg", "jpeg", "png", "webp"])
 
 if uploaded:
     if st.button("Treinar modelo"):
